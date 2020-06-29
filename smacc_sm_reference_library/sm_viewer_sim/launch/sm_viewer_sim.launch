@@ -1,3 +1,0 @@
-<launch>
-    <node pkg="sm_viewer_sim" type="sm_viewer_sim" name="sm_viewer_sim"/>
-</launch>
