@@ -1,0 +1,12 @@
+Source: ros-noetic-sm-starcraft-ai
+Section: misc
+Priority: optional
+Maintainer: Pablo Iñigo Blasco <pablo@ibrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-keyboard-client, ros-noetic-multirole-sensor-client, ros-noetic-ros-publisher-client, ros-noetic-ros-timer-client, ros-noetic-smacc, ros-noetic-sr-all-events-go, ros-noetic-std-msgs, xterm
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-sm-starcraft-ai
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-keyboard-client, ros-noetic-multirole-sensor-client, ros-noetic-ros-publisher-client, ros-noetic-ros-timer-client, ros-noetic-smacc, ros-noetic-sr-all-events-go, ros-noetic-std-msgs, xterm
+Description: The sm_starcraft_ai package
