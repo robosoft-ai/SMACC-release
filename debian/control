@@ -1,0 +1,12 @@
+Source: ros-noetic-sm-dance-bot-2
+Section: misc
+Priority: optional
+Maintainer: Pablo Inigo Blasco <pablo@ibrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-actionlib, ros-noetic-actionlib-msgs, ros-noetic-catkin, ros-noetic-move-base-z-client-plugin, ros-noetic-multirole-sensor-client, ros-noetic-ridgeback-gazebo, ros-noetic-ridgeback-navigation, ros-noetic-ros-publisher-client, ros-noetic-ros-timer-client, ros-noetic-roscpp, ros-noetic-smacc, ros-noetic-sr-all-events-go, ros-noetic-sr-conditional, ros-noetic-sr-event-countdown, ros-noetic-tf, xterm
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-sm-dance-bot-2
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-actionlib, ros-noetic-actionlib-msgs, ros-noetic-move-base-z-client-plugin, ros-noetic-multirole-sensor-client, ros-noetic-ridgeback-gazebo, ros-noetic-ridgeback-navigation, ros-noetic-ros-publisher-client, ros-noetic-ros-timer-client, ros-noetic-roscpp, ros-noetic-smacc, ros-noetic-sr-all-events-go, ros-noetic-sr-conditional, ros-noetic-sr-event-countdown, ros-noetic-tf, xterm
+Description: The dance_bot package
