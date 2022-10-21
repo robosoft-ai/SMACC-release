@@ -1,0 +1,13 @@
+Source: ros-noetic-move-base-z-client-plugin
+Section: misc
+Priority: optional
+Maintainer: Pablo Inigo Blasco <pablo@ibrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-dynamic-reconfigure, ros-noetic-pluginlib, ros-noetic-smacc, ros-noetic-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-move-base-z-client-plugin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-dynamic-reconfigure, ros-noetic-pluginlib, ros-noetic-smacc, ros-noetic-tf
+Description: The move_base_z_client_plugin package implements SMACC Action Client Plugin for the ROS Navigation State - move_base node.
+ Developed by Reel Robotics.
