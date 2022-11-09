@@ -1,0 +1,12 @@
+Source: ros-noetic-sr-conditional
+Section: misc
+Priority: optional
+Maintainer: Pablo Inigo Blasco <pablo@ibrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-smacc
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-sr-conditional
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-smacc
+Description: The sr_conditional package
