@@ -1,0 +1,12 @@
+Source: ros-noetic-backward-local-planner
+Section: misc
+Priority: optional
+Maintainer: Pablo Inigo Blasco <pablo@ibrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-base-local-planner, ros-noetic-catkin, ros-noetic-costmap-2d, ros-noetic-forward-global-planner, ros-noetic-geometry-msgs, ros-noetic-message-generation, ros-noetic-move-base-msgs, ros-noetic-nav-core, ros-noetic-nav-msgs, ros-noetic-pcl-ros, ros-noetic-roscpp, ros-noetic-std-msgs, ros-noetic-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-backward-local-planner
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-base-local-planner, ros-noetic-costmap-2d, ros-noetic-geometry-msgs, ros-noetic-message-runtime, ros-noetic-move-base-msgs, ros-noetic-nav-core, ros-noetic-nav-msgs, ros-noetic-pcl-ros, ros-noetic-roscpp, ros-noetic-std-msgs, ros-noetic-tf
+Description: The backward_local_planner package.
