@@ -1,0 +1,12 @@
+Source: ros-noetic-move-eye-client
+Section: misc
+Priority: optional
+Maintainer: Pablo Iñigo Blasco <pablo@ibrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-move-eye-client
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: The move_eye_client package
