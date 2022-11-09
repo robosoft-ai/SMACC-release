@@ -2,9 +2,9 @@ name: bloom-release
 
 on:
   push:
-    paths:
-      #  - package.xml
-      #  - '*/package.xml'
+    # paths:
+    #   - package.xml
+    #   - '*/package.xml'
     branches: noetic-devel
     workflow_dispatch:
 
@@ -41,10 +41,10 @@ jobs:
         uses: at-wat/bloom-release-action@v0
         with:
           ros_distro: ${{ env.ROS_DISTRO }}
-          github_token_bloom: ${{ secrets.GITHUB_TOKEN_BLOOM }}
+          github_token_bloom: ${{ secrets.GITTOKEN_BLOOM }}
           github_user: pabloinigoblasco
           git_user: pabloinigoblasco
-          git_email: pibgeus@gmail.com
-          release_repository_push_url: https://github.com/reelrbtx/SMACC-release
+          git_email: pablo@ibrobotics.com
+          release_repository_push_url: https://github.com/robosoft-ai/SMACC-release.git
           tag_and_release: true
           # open_pr: true
