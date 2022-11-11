@@ -1,0 +1,12 @@
+Source: ros-noetic-multirole-sensor-client
+Section: misc
+Priority: optional
+Maintainer: Pablo Iñigo Blasco <pablo@ibrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-smacc, ros-noetic-smacc-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-multirole-sensor-client
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-smacc, ros-noetic-smacc-msgs
+Description: The multirole_sensor_client package
