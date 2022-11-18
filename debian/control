@@ -1,0 +1,12 @@
+Source: ros-melodic-forward-local-planner
+Section: misc
+Priority: optional
+Maintainer: Pablo Inigo Blasco <pablo@ibrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-costmap-2d, ros-melodic-geometry-msgs, ros-melodic-message-generation, ros-melodic-nav-core, ros-melodic-nav-msgs, ros-melodic-roscpp, ros-melodic-std-msgs, ros-melodic-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-forward-local-planner
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-costmap-2d, ros-melodic-geometry-msgs, ros-melodic-nav-core, ros-melodic-nav-msgs, ros-melodic-roscpp, ros-melodic-std-msgs, ros-melodic-tf
+Description: forward_local_planner package.
