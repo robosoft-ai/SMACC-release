@@ -1,0 +1,13 @@
+Source: ros-melodic-smacc
+Section: misc
+Priority: optional
+Maintainer: Pablo Inigo Blasco <pablo@ibrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), liblog4cxx-dev, ros-melodic-actionlib, ros-melodic-actionlib-msgs, ros-melodic-catkin, ros-melodic-controller-manager-msgs, ros-melodic-message-generation, ros-melodic-pluginlib, ros-melodic-ros-control, ros-melodic-roscpp, ros-melodic-std-msgs, ros-noetic-smacc-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-smacc
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, liblog4cxx-dev, ros-melodic-actionlib, ros-melodic-actionlib-msgs, ros-melodic-controller-manager-msgs, ros-melodic-message-runtime, ros-melodic-pluginlib, ros-melodic-ros-control, ros-melodic-roscpp, ros-melodic-std-msgs, ros-noetic-smacc-msgs
+Description: SMACC is a ROS/C++ library to implement in easy and systematic way UML StateCharts (AKA state machines).
+ SMACC is inspired by the SMACH ROS package and it is built on top of Boost StateChart library. Developed by Reel Robotics.
