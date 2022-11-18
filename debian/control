@@ -1,0 +1,12 @@
+Source: ros-melodic-move-group-interface-client
+Section: misc
+Priority: optional
+Maintainer: Pablo Iñigo Blasco <pablo@ibrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-moveit, ros-melodic-moveit-ros-planning-interface, ros-melodic-tf, ros-noetic-smacc
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-move-group-interface-client
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-moveit, ros-melodic-moveit-ros-planning-interface, ros-melodic-tf, ros-noetic-smacc
+Description: The move_group_interface_client package
