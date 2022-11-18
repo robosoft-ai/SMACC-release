@@ -1,0 +1,20 @@
+ros-melodic-sm-update-loop (1.3.2-1bionic) bionic; urgency=high
+
+  * Merge branch 'master' into melodic-devel
+  * adding xterm dependency to examples
+  * More CbTimer Updating
+  * cbtimer cleanup
+  * Merge branch 'master' into melodic-devel
+  * sm_update_loop renaming
+  * Contributors: Brett Aldrich, Unknown, brettpac, pablo.inigo.blasco
+  * Merge branch 'master' into melodic-devel
+  * adding xterm dependency to examples
+  * More CbTimer Updating
+  * cbtimer cleanup
+  * Merge branch 'master' into melodic-devel
+  * sm_update_loop renaming
+  * Contributors: Brett Aldrich, Unknown, brettpac, pablo.inigo.blasco
+
+ -- Pablo Inigo Blasco <pablo@ibrobotics.com>  Thu, 17 Nov 2022 23:00:00 -0000
+
+
