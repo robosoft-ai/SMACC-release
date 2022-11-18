@@ -1,0 +1,12 @@
+Source: ros-melodic-sm-dance-bot-strikes-back
+Section: misc
+Priority: optional
+Maintainer: Pablo Inigo Blasco <pablo@ibrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-actionlib, ros-melodic-actionlib-msgs, ros-melodic-angles, ros-melodic-catkin, ros-melodic-ridgeback-gazebo, ros-melodic-ridgeback-navigation, ros-melodic-roscpp, ros-melodic-tf, ros-noetic-move-base-z-client-plugin, ros-noetic-multirole-sensor-client, ros-noetic-ros-publisher-client, ros-noetic-ros-timer-client, ros-noetic-sm-dance-bot, ros-noetic-smacc, ros-noetic-sr-all-events-go, ros-noetic-sr-conditional, ros-noetic-sr-event-countdown, xterm
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-sm-dance-bot-strikes-back
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-actionlib, ros-melodic-actionlib-msgs, ros-melodic-angles, ros-melodic-ridgeback-gazebo, ros-melodic-ridgeback-navigation, ros-melodic-roscpp, ros-melodic-tf, ros-noetic-move-base-z-client-plugin, ros-noetic-multirole-sensor-client, ros-noetic-ros-publisher-client, ros-noetic-ros-timer-client, ros-noetic-sm-dance-bot, ros-noetic-smacc, ros-noetic-sr-all-events-go, ros-noetic-sr-conditional, ros-noetic-sr-event-countdown, xterm
+Description: The dance_bot_strikes_back package
