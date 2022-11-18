@@ -1,0 +1,12 @@
+Source: ros-melodic-sm-fetch-six-table-pick-n-sort-1
+Section: misc
+Priority: optional
+Maintainer: Pablo Iñigo Blasco <pablo@ibrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-control-msgs, ros-melodic-fake-localization, ros-melodic-fetch-gazebo, ros-melodic-fetch-maps, ros-melodic-fetch-moveit-config, ros-melodic-fetch-navigation, ros-noetic-move-base-z-client-plugin, ros-noetic-moveit-z-client, xterm
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-sm-fetch-six-table-pick-n-sort-1
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-control-msgs, ros-melodic-fake-localization, ros-melodic-fetch-gazebo, ros-melodic-fetch-maps, ros-melodic-fetch-moveit-config, ros-melodic-fetch-navigation, ros-noetic-move-base-z-client-plugin, ros-noetic-moveit-z-client, xterm
+Description: The sm_fetch_six_table_pick_n_sort_1 package
