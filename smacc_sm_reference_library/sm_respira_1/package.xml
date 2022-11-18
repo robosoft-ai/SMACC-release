@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>sm_respira_1</name>
-  <version>0.9.7</version>
-  <description>The sm_respira_1 package</description>
+  <version>1.3.2</version>  <description>The sm_respira_1 package</description>
 
 
   <maintainer email="pablo@ibrobotics.com">Pablo Iñigo Blasco</maintainer>

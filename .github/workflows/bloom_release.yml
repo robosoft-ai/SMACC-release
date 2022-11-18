@@ -6,25 +6,21 @@ on:
       - package.xml
       - '*/package.xml'
       - '.github/workflows/bloom_release.yml'
-    branches: noetic-devel
-    workflow_dispatch:
+    branches: [melodic-devel]
+  workflow_dispatch:
 
 jobs:
   bloom-release:
     runs-on: ubuntu-latest
+    container: ros:melodic-ros-core
     env:
-      ROS_DISTRO: noetic
+      ROS_DISTRO: melodic
       PRERELEASE: true
       BASEDIR: ${{ github.workspace }}/.work
 
     steps:
       - name: checkout
         uses: actions/checkout@v2
-
-      # BASIC CODE QUALITY
-      - run: |
-          sudo apt-get update
-          sudo apt-get install -y clang-format-12
 
       - uses: actions/setup-python@v3
         with:

@@ -5,7 +5,7 @@ GITHUB_TOKEN="$2"
 PACKAGE_CLOUD_USER="$3"
 PACKAGE_CLOUD_TOKEN="$4"
 
-source /opt/ros/melodic/setup.bash --extend
+source /opt/ros/$ROS_VERSION_NAME/setup.bash --extend
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 export SMACC_SRC_FOLDER=`realpath $DIR/../..`

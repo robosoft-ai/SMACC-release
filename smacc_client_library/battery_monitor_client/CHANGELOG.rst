@@ -2,15 +2,15 @@
 Changelog for package battery_monitor_client
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.3.2 (2022-11-18)
+------------------
 
 * added server folders to client library
 * Merge branch 'master' into melodic-devel
 * fixed Doxygen Client Namespaces
 * refactoring client namespaces names
-* Merge branch 'master' of https://github.com/robosoft-ai/SMACC
-* Merge branch 'master' of https://github.com/robosoft-ai/SMACC
+* Merge branch 'master' of https://github.com/reelrbtx/SMACC
+* Merge branch 'master' of https://github.com/reelrbtx/SMACC
 * Added Readme's to Client Library
 * Merge branch 'master' into melodic-devel
 * some refactoring in orthogonals relation with clients

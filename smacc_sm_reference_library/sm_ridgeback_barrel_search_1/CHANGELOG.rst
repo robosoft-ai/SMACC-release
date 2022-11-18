@@ -2,10 +2,10 @@
 Changelog for package sm_ridgeback_barrel_search_1
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.3.2 (2022-11-18)
+------------------
 
-* Merge branch 'master' of https://github.com/robosoft-ai/SMACC
+* Merge branch 'master' of https://github.com/reelrbtx/SMACC
 * Changing waypoints in sm_ridgeback_barrel_search_1
 * improving opencv2 box detection and also restoring sm_moveit example
 * fixing some visual issue in smacc opencv2 demo
