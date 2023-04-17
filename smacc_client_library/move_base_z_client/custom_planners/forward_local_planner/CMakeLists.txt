@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8.7)
+cmake_minimum_required(VERSION 3.8)
 project(forward_local_planner)
 
 find_package(catkin REQUIRED
@@ -13,6 +13,12 @@ find_package(catkin REQUIRED
   std_msgs
 )
 
+
+set_source_files_properties(
+  src/forward_local_planner.cpp
+  PROPERTIES
+  COMPILE_FLAGS "-Wno-unused-parameter"
+)
 
 catkin_package(
   INCLUDE_DIRS include
