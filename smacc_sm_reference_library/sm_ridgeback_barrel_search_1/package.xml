@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>sm_ridgeback_barrel_search_1</name>
-  <version>1.3.2</version>  <description>The sm_ridgeback_barrel_search_1 package</description>
+    <version>1.4.6</version>
+  <description>The sm_ridgeback_barrel_search_1 package</description>
 
 
   <maintainer email="pablo@ibrobotics.com">Pablo Iñigo Blasco</maintainer>
@@ -16,6 +17,8 @@
   <depend>smacc</depend>
   <depend>move_base_z_client_plugin</depend>
   <depend>cv_bridge</depend>
+
+  <depend>vision_opencv</depend>
   <depend>ridgeback_gazebo</depend>
   <depend>ridgeback_navigation</depend>
   <depend>xterm</depend>

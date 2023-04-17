@@ -2,14 +2,14 @@
 Changelog for package ros_publisher_client
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.3.2 (2022-11-18)
-------------------
+Forthcoming
+-----------
 
 * Merge branch 'master' into melodic-devel
 * fixed Doxygen Client Namespaces
 * refactoring client namespaces names
-* Merge branch 'master' of https://github.com/reelrbtx/SMACC
-* Merge branch 'master' of https://github.com/reelrbtx/SMACC
+* Merge branch 'master' of https://github.com/robosoft-ai/SMACC
+* Merge branch 'master' of https://github.com/robosoft-ai/SMACC
 * Added Readme's to Client Library
 * Merge branch 'master' into melodic-devel
 * unpushed code
@@ -22,8 +22,8 @@ Changelog for package ros_publisher_client
 * Merge branch 'master' into melodic-devel
 * fixed Doxygen Client Namespaces
 * refactoring client namespaces names
-* Merge branch 'master' of https://github.com/reelrbtx/SMACC
-* Merge branch 'master' of https://github.com/reelrbtx/SMACC
+* Merge branch 'master' of https://github.com/robosoft-ai/SMACC
+* Merge branch 'master' of https://github.com/robosoft-ai/SMACC
 * Added Readme's to Client Library
 * Merge branch 'master' into melodic-devel
 * unpushed code

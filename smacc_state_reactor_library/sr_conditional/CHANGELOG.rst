@@ -2,8 +2,8 @@
 Changelog for package sr_conditional
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.3.2 (2022-11-18)
-------------------
+Forthcoming
+-----------
 
 * Renamed sr_conditional & eg_random_generator
 * Contributors: Brett Aldrich

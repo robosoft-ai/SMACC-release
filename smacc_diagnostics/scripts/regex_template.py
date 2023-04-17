@@ -47,7 +47,7 @@ def getRootTypeInfo(inputtext):
         flat = typesdict[tkey]
         print(flat)
         startindex = flat.index("<")
-        flat = flat[startindex + 1 : -1]
+        flat = flat[(startindex + 1) : -1]
         basetypes = [t.strip() for t in flat.split(",")]
         for b in basetypes:
             if "$" not in b:
@@ -93,5 +93,3 @@ def getRootTypeInfo(inputtext):
 
 inputtext = "smacc::Transition<Ev1<LidarSensor<sensor_msgs::LaserScan, std::allocator<none>>, EVTAG>, State1, TAG>"
 roottypeinfo = getRootTypeInfo(inputtext)
-
-# print(types)

@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # /bin/python
-# Author: Pablo Inigo Blasco (github: pabloinigoblasco) 2019
+# Author: Pablo Iñigo Blasco (github: pabloinigoblasco) 2019
 
 
 import rospkg
@@ -21,6 +21,8 @@ import subprocess
 import os
 import shutil
 import re
+
+# src/smacc_ci/generate_debs.py -src_folder src
 
 
 def build_deb_package(
@@ -38,9 +40,6 @@ def build_deb_package(
         + " "
         + str(packagepath)
     )
-    print(cmd)
-    bloomprocess = subprocess.Popen(cmd, shell=True)
-    bloomprocess.wait()
 
     # finding actual source package directory of the package in the workspace
     develpackagefolder = None
@@ -54,7 +53,7 @@ def build_deb_package(
         print("ERROR: package " + str(package_name) + " not found in workspace")
 
     localpackagepath = develpackagefolder
-    print("local package path: {localpackagepath} ".format(**locals()))
+    print(f"local package path: {localpackagepath} ")
 
     # cleaning possible previous wrong builds
     if os.path.exists(os.path.join(localpackagepath, "debian")):
@@ -98,7 +97,7 @@ def build_deb_package(
     debianfiles = [f for f in thisfolderfiles if re.search(firstregexstr, f)]
     print("DETECTED DEBIAN FILES:")
     for d in debianfiles:
-        print("- {d}".format(**locals()))
+        print(f"- {d}")
 
     visited_debian_files = [
         f for f in debianfiles if re.search(regexstr, f) and f not in already_visited
@@ -106,7 +105,7 @@ def build_deb_package(
     debianfilename = visited_debian_files[0]
     print("VISITED DEBIAN FILES:")
     for d in visited_debian_files:
-        print("- {d}".format(**locals()))
+        print(f"- {d}")
 
     print("Debian file found: ")
     print(debianfilename)
@@ -216,7 +215,7 @@ def remove_debian_files(repo_owner, reponame, osname, osversion, debianfiles):
 # ------------------------ SMACC PACKAGES -----------------------
 
 
-def create_and_push_smacc_debians(osname, osversion, rosversion, reponame, action, packages):
+def create_and_push_smacc_debians(osname, osversion, rosversion, reponame, action, packages: list):
     workspace_source_folder = os.path.join(workspace_folder, relative_smacc_folder)
     identified_install_packages = get_identified_packages(workspace_folder)
 
@@ -243,7 +242,7 @@ def create_and_push_smacc_debians(osname, osversion, rosversion, reponame, actio
             debianfiles = [f for f in thisfolderfiles if re.search(firstregexstr, f)]
             print("DETECTED DEBIAN FILES:")
             for d in debianfiles:
-                print("- {d}".format(**locals()))
+                print(f"- {d}")
                 smacc_debian_files.append(d)
 
     if "push" in action:

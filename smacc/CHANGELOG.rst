@@ -2,8 +2,8 @@
 Changelog for package smacc
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.3.2 (2022-11-18)
-------------------
+Forthcoming
+-----------
 
 * Progressing on transition log
 * dynamic behavior
@@ -53,7 +53,7 @@ Changelog for package smacc
 * ClMultiroleSensor and TopicSubscriber
 * detaching substatebehaviors from component and renaming class refactoring
 * making smacc_viewer run and also refactoring smacc_state_info headers
-* Merge branch 'master' of https://github.com/reelrbtx/SMACC
+* Merge branch 'master' of https://github.com/robosoft-ai/SMACC
 * minor changes
 * Minor commenting edits
 * more improvements on sensor topics keyboard events, and architecture improvements
@@ -64,7 +64,7 @@ Changelog for package smacc
 * hard renaming - namming convention - initial integration of smach_viewer
 * Folder Renaming
 * SMACC building
-* Merge branch 'master' of https://github.com/reelrbtx/SMACC
+* Merge branch 'master' of https://github.com/robosoft-ai/SMACC
 * fixing smacc for melodic
 * c++11 for indigo in some projects
 * Merge branch 'master' into indigo-devel
@@ -77,7 +77,7 @@ Changelog for package smacc
 * Merge branch 'master' into indigo-devel
 * updating cmakelists
 * Merge branch 'master' of https://github.com/pabloinigoblasco/SMACC
-* Merge pull request `#1 <https://github.com/reelrbtx/SMACC/issues/1>`_ from reelrbtx/master
+* Merge pull request `#1 <https://github.com/robosoft-ai/SMACC/issues/1>`_ from robosoft-ai/master
   merging
 * smacc improvements
 * minor
@@ -118,4 +118,4 @@ Changelog for package smacc
 * minor fixes
 * initials on smacc
 * Moved SMACC to it's own repo..
-* Contributors: Pablo Inigo Blasco, Pablo Iñigo Blasco, brett2@reelrobotics.com, brettpac, travis
+* Contributors: Pablo Inigo Blasco, Pablo Iñigo Blasco, brett2@robosoft-ai.com, brettpac, travis

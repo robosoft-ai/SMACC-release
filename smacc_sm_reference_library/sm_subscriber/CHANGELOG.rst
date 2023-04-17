@@ -2,11 +2,13 @@
 Changelog for package sm_subscriber
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.3.2 (2022-11-18)
-------------------
-* melodic-master
-* updating melodic fix
-* code format melodic
+Forthcoming
+-----------
+* 0.9.4
+* noetic versioning update
+* code format and spelling - code quality via pre-commit
+* new noetic version
+* better subscribers client behaviors
 * better subscribers client behaviors
 * Contributors: pabloinigoblasco
 

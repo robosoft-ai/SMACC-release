@@ -4,7 +4,6 @@
 import rospy
 import std_srvs
 
-
 if __name__ == "__main__":
 
     def set_bool_service(req):

@@ -2,13 +2,13 @@
 Changelog for package keyboard_client
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.3.2 (2022-11-18)
-------------------
+Forthcoming
+-----------
 
 * added server folders to client library
 * Merge branch 'master' into melodic-devel
-* Merge branch 'master' of https://github.com/reelrbtx/SMACC
-* Merge branch 'master' of https://github.com/reelrbtx/SMACC
+* Merge branch 'master' of https://github.com/robosoft-ai/SMACC
+* Merge branch 'master' of https://github.com/robosoft-ai/SMACC
 * Redoing Client Namespaces
 * Added Readme's to Client Library
 * Merge branch 'master' into melodic-devel
@@ -23,8 +23,8 @@ Changelog for package keyboard_client
 
 * added server folders to client library
 * Merge branch 'master' into melodic-devel
-* Merge branch 'master' of https://github.com/reelrbtx/SMACC
-* Merge branch 'master' of https://github.com/reelrbtx/SMACC
+* Merge branch 'master' of https://github.com/robosoft-ai/SMACC
+* Merge branch 'master' of https://github.com/robosoft-ai/SMACC
 * Redoing Client Namespaces
 * Added Readme's to Client Library
 * Merge branch 'master' into melodic-devel
@@ -39,8 +39,8 @@ Changelog for package keyboard_client
 
 * added server folders to client library
 * Merge branch 'master' into melodic-devel
-* Merge branch 'master' of https://github.com/reelrbtx/SMACC
-* Merge branch 'master' of https://github.com/reelrbtx/SMACC
+* Merge branch 'master' of https://github.com/robosoft-ai/SMACC
+* Merge branch 'master' of https://github.com/robosoft-ai/SMACC
 * Redoing Client Namespaces
 * Added Readme's to Client Library
 * Merge branch 'master' into melodic-devel
@@ -55,8 +55,8 @@ Changelog for package keyboard_client
 
 * added server folders to client library
 * Merge branch 'master' into melodic-devel
-* Merge branch 'master' of https://github.com/reelrbtx/SMACC
-* Merge branch 'master' of https://github.com/reelrbtx/SMACC
+* Merge branch 'master' of https://github.com/robosoft-ai/SMACC
+* Merge branch 'master' of https://github.com/robosoft-ai/SMACC
 * Redoing Client Namespaces
 * Added Readme's to Client Library
 * Merge branch 'master' into melodic-devel

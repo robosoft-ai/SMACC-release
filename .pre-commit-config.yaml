@@ -32,11 +32,11 @@ repos:
       - id: fix-byte-order-marker
 
   # Python hooks
-  # - repo: https://github.com/asottile/pyupgrade
-  #   rev: v2.31.0
-  #   hooks:
-  #   -   id: pyupgrade
-  #       args: [--py36-plus]
+  - repo: https://github.com/asottile/pyupgrade
+    rev: v2.31.0
+    hooks:
+    -   id: pyupgrade
+        args: [--py36-plus]
 
   - repo: https://github.com/psf/black
     rev: 22.3.0
@@ -63,7 +63,7 @@ repos:
       - id: clang-format
         name: clang-format
         description: Format files with ClangFormat.
-        entry: clang-format-10
+        entry: clang-format
         language: system
         files: \.(c|cc|cxx|cpp|frag|glsl|h|hpp|hxx|ih|ispc|ipp|java|js|m|proto|vert)$
         args: ['-fallback-style=none', '-i']

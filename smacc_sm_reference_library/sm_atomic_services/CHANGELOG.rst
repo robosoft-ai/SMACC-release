@@ -2,8 +2,8 @@
 Changelog for package sm_atomic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.3.2 (2022-11-18)
-------------------
+Forthcoming
+-----------
 
 * creating feature smacc_runtime test
 * Merge branch 'master' into melodic-devel
@@ -13,13 +13,13 @@ Changelog for package sm_atomic
 * fixed Doxygen Client Namespaces
 * refactoring client namespaces names
 * Merge branch 'master' into melodic-devel
-* Merge branch 'master' of https://github.com/reelrbtx/SMACC
+* Merge branch 'master' of https://github.com/robosoft-ai/SMACC
 * Update README.md
 * sm_atomic diagrams
 * Update README.md
 * Update README.md
 * Update README.md
-* Merge branch 'master' of https://github.com/reelrbtx/SMACC
+* Merge branch 'master' of https://github.com/robosoft-ai/SMACC
 * Improved sm_atomic
 * more formatting & commenting
 * renaming runtimeConfiguration to runtimeConfigure
@@ -28,13 +28,13 @@ Changelog for package sm_atomic
 * Changed static_configure to configure_orthogonal
 * unpushed code
 * Replaced all smacc::transition's with Transition
-* Merge branch 'master' of https://github.com/reelrbtx/SMACC
+* Merge branch 'master' of https://github.com/robosoft-ai/SMACC
 * Update README.md
 * Update README.md
 * Adding sm images
 * Update README.md
 * Update README.md
-* Merge branch 'master' of https://github.com/reelrbtx/SMACC
+* Merge branch 'master' of https://github.com/robosoft-ai/SMACC
 * Update README.md
 * adding launch file to sm_atomic
 * Renaming transition
@@ -57,7 +57,7 @@ Changelog for package sm_atomic
 * adding object tagging to clients, specifically action clients
 * renaming consistently SmAtomic
 * testing countdown logic unit more refactoring and analyzing propagating issue
-* Contributors: Brett Aldrich, Pablo Iñigo Blasco, Pabo Iñigo Blasco, Unknown, Víctor Ferrer García, brett2@reelrobotics.com, brettpac, pablo.inigo.blasco, reelrbtx
+* Contributors: Brett Aldrich, Pablo Iñigo Blasco, Pabo Iñigo Blasco, Unknown, Víctor Ferrer García, brett2@robosoft-ai.com, brettpac, pablo.inigo.blasco, robosoft-ai
 
 * creating feature smacc_runtime test
 * Merge branch 'master' into melodic-devel
@@ -67,13 +67,13 @@ Changelog for package sm_atomic
 * fixed Doxygen Client Namespaces
 * refactoring client namespaces names
 * Merge branch 'master' into melodic-devel
-* Merge branch 'master' of https://github.com/reelrbtx/SMACC
+* Merge branch 'master' of https://github.com/robosoft-ai/SMACC
 * Update README.md
 * sm_atomic diagrams
 * Update README.md
 * Update README.md
 * Update README.md
-* Merge branch 'master' of https://github.com/reelrbtx/SMACC
+* Merge branch 'master' of https://github.com/robosoft-ai/SMACC
 * Improved sm_atomic
 * more formatting & commenting
 * renaming runtimeConfiguration to runtimeConfigure
@@ -82,13 +82,13 @@ Changelog for package sm_atomic
 * Changed static_configure to configure_orthogonal
 * unpushed code
 * Replaced all smacc::transition's with Transition
-* Merge branch 'master' of https://github.com/reelrbtx/SMACC
+* Merge branch 'master' of https://github.com/robosoft-ai/SMACC
 * Update README.md
 * Update README.md
 * Adding sm images
 * Update README.md
 * Update README.md
-* Merge branch 'master' of https://github.com/reelrbtx/SMACC
+* Merge branch 'master' of https://github.com/robosoft-ai/SMACC
 * Update README.md
 * adding launch file to sm_atomic
 * Renaming transition
@@ -111,4 +111,4 @@ Changelog for package sm_atomic
 * adding object tagging to clients, specifically action clients
 * renaming consistently SmAtomic
 * testing countdown logic unit more refactoring and analyzing propagating issue
-* Contributors: Brett Aldrich, Pablo Iñigo Blasco, Pabo Iñigo Blasco, Unknown, Víctor Ferrer García, brett2@reelrobotics.com, brettpac, pablo.inigo.blasco, reelrbtx
+* Contributors: Brett Aldrich, Pablo Iñigo Blasco, Pabo Iñigo Blasco, Unknown, Víctor Ferrer García, brett2@robosoft-ai.com, brettpac, pablo.inigo.blasco, robosoft-ai

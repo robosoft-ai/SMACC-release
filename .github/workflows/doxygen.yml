@@ -2,12 +2,11 @@ name: Doxygen
 
 on:
   push:
-    branches: [melodic-devel]
+    branches: [noetic-devel]
 
 jobs:
   doxygen:
     runs-on: ubuntu-20.04
-
     steps:
       - uses: actions/checkout@v1
 
@@ -21,5 +20,5 @@ jobs:
           external_repository:  robosoft-ai/smacc_doxygen
           publish_branch: gh-pages
           publish_dir: docs/
-          destination_dir: melodic
+          destination_dir: noetic
           commit_message: ${{ github.event.head_commit.message }}

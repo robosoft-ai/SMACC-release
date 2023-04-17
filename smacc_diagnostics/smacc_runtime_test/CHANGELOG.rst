@@ -2,14 +2,16 @@
 Changelog for package smacc_runtime_test
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.3.2 (2022-11-18)
-------------------
-* melodic-master
-* code format melodic
+Forthcoming
+-----------
+* 0.9.4
+* noetic versioning update
+* code format and spelling - code quality via pre-commit
+* Merge branch 'master' into noetic-devel
 * fixing some package xmls
 * fixing build with catkin_make
 * updating melodic
-* Merge branch 'master' of https://github.com/reelrbtx/SMACC
+* Merge branch 'master' of https://github.com/robosoft-ai/SMACC
 * creating feature smacc_runtime test
 * Contributors: Pablo Iñigo Blasco, Pabo Iñigo Blasco, pabloinigoblasco
 

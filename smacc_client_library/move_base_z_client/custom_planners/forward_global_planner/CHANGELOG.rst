@@ -2,8 +2,8 @@
 Changelog for package forward_global_planner
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.3.2 (2022-11-18)
-------------------
+Forthcoming
+-----------
 
 * Initial SMACC version
 * Contributors: Pablo Iñigo Blasco
