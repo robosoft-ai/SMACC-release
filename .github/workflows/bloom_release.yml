@@ -7,7 +7,6 @@ on:
       - '*/package.xml'
       - '.github/workflows/bloom_release.yml'
     branches: noetic-devel
-    workflow_dispatch:
 
 jobs:
   bloom-release:
@@ -48,4 +47,4 @@ jobs:
           git_email: pablo@ibrobotics.com
           release_repository_push_url: https://github.com/robosoft-ai/SMACC-release.git
           tag_and_release: true
-          # open_pr: true
+          open_pr: true
