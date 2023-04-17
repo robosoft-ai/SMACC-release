@@ -1,0 +1,12 @@
+Source: ros-noetic-smacc-runtime-test
+Section: misc
+Priority: optional
+Maintainer: Pablo Iñigo Blasco <pablo@ibrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-roscpp, ros-noetic-rosgraph-msgs, ros-noetic-smacc-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-smacc-runtime-test
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-roscpp, ros-noetic-rosgraph-msgs, ros-noetic-smacc-msgs
+Description: The smacc_runtime_test package
