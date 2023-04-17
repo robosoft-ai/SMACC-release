@@ -1,0 +1,12 @@
+Source: ros-noetic-sr-all-events-go
+Section: misc
+Priority: optional
+Maintainer: Pablo Iñigo Blasco <pablo@ibrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-smacc
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-sr-all-events-go
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: The sr_all_events_go package
