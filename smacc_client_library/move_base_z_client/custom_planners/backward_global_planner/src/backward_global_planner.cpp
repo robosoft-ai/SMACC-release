@@ -136,6 +136,7 @@ bool BackwardGlobalPlanner::createDefaultBackwardPath(const geometry_msgs::PoseS
     }
 
     ROS_WARN_STREAM( "[BackwardGlobalPlanner ] backward global plan size:  " <<plan.size());
+    return true;
 }
 
 /**
@@ -179,7 +180,7 @@ bool BackwardGlobalPlanner::makePlan(const geometry_msgs::PoseStamped &start,
     costmap_2d::Costmap2D *costmap2d = this->costmap_ros_->getCostmap();
     for (auto &p : plan)
     {
-        unsigned int mx, my;
+        uint32_t mx, my;
         costmap2d->worldToMap(p.pose.position.x, p.pose.position.y, mx, my);
         auto cost = costmap2d->getCost(mx, my);
 
