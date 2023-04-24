@@ -1,0 +1,12 @@
+Source: ros-noetic-sm-viewer-sim
+Section: misc
+Priority: optional
+Maintainer: Pablo Iñigo Blasco <pablo@ibrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-move-base-z-client-plugin, ros-noetic-multirole-sensor-client, ros-noetic-roscpp, ros-noetic-smacc, ros-noetic-sr-all-events-go, ros-noetic-tf, xterm
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-sm-viewer-sim
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-move-base-z-client-plugin, ros-noetic-multirole-sensor-client, ros-noetic-roscpp, ros-noetic-smacc, ros-noetic-sr-all-events-go, ros-noetic-tf, xterm
+Description: The sm_viewer_sim package
