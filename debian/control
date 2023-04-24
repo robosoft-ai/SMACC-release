@@ -1,0 +1,12 @@
+Source: ros-noetic-smacc-rviz-plugin
+Section: misc
+Priority: optional
+Maintainer: Pablo Iñigo Blasco <pablo@ibrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-noetic-catkin, ros-noetic-rviz
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-smacc-rviz-plugin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt5core5a, libqt5gui5, libqt5widgets5, ros-noetic-rviz, ros-noetic-smacc-msgs
+Description: The smacc_rviz_plugin package
